@@ -47,3 +47,5 @@ end
 
 gem 'capybara'
 gem 'selenium-webdriver'
+gem 'rest-client'
+gem 'nokogiri'

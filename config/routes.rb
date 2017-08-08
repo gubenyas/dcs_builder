@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'xml_builder#index'
+  get 'xml_builder/build' => 'xml_builder#build'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
